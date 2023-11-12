@@ -175,5 +175,13 @@
             letter-spacing: 3px;
             border-bottom: 4px solid var(--cor1);
         }
+
+        main ul {
+            flex-direction: column;
+        }
+
+        #bgGis {
+            margin-left: 20px;
+        }
     }
 }
