@@ -146,6 +146,10 @@
             margin-top: -50px;
         }
 
+        #pag3-about {
+            background-color: #cfd8f5;
+        }
+
         .pag3-about {
             flex-direction: column;
             width: 537px;
@@ -154,10 +158,12 @@
         #title-about {
             text-align: center;
             font-size: 65px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
         }
 
         #sub-title-about {
-            letter-spacing: 2px;
+            letter-spacing: 3px;
+            border-bottom: 4px solid var(--cor1);
         }
     }
 }
