@@ -71,9 +71,9 @@
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.479);
 }
 
-.pag2-about {
+#pag2-about {
     background-image: url(../midias/turma.jpeg);
-    background-position: top center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -137,7 +137,7 @@
 
 .pag4-about {
     background-image: url('../midias/turmaFORA.jpeg');
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
