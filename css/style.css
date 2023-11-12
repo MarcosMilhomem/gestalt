@@ -196,7 +196,7 @@
     background-position: top center;
 }
 
-.bloco-oculto {
+#bloco-oculto {
     display: none;
 }
 
