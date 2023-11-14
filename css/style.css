@@ -418,7 +418,7 @@ ul {
     padding-top: 240px;
     margin-left: 130px;
     font-size: 45px;
-    font-family: var(--font-destaque);
+    font-family: var(--font-secundaria);
     color: var(--corTextos);
 }
 
@@ -432,6 +432,10 @@ ul {
     align-items: center;
     text-decoration: none;
     gap: 20px;
+}
+
+.nomeRS {
+    font-family: var(--font-padrao);
 }
 
 .linkRS:hover {
