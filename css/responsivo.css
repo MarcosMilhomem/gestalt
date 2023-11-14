@@ -78,21 +78,6 @@
         display: none;
     }
 
-    #oculto {
-        background-image: radial-gradient(#041d77, #000066);
-        display: block;
-        padding-top: 10%;
-        padding-left: 25%;
-        height: 2400px;
-    }
-
-    #oculto h1 {
-        margin-left: -15%;
-        margin-bottom: 30px;
-        font-size: 40px;
-        color: var(--corTextos);
-    }
-
     .txt-produtos {
         text-align: center;
         border-radius: 0px 6px;
@@ -184,14 +169,44 @@
     .modal-work img {
         margin-right: 95px;
     }
+}
 
-    .background2 {
-        background-attachment: scroll;
+@media (max-width: 530px) {
+    .about p {
+        font-size: 15px;
+        line-height: 26px;
     }
 
-    .cntt {
-        position: absolute;
+    #title-about {
+        font-size: 55px;
     }
 
+    #sub-title-about {
+        font-size: 12px;
+        letter-spacing: 3px;
+        border-bottom: 4px solid var(--cor1);
+    }
+
+    .about h3 {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    #sub-about {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .pag3-about {
+        flex-direction: column;
+        width: 502px;
+    }
     
+    .background-about {
+        margin-top: -90px;
+    }
+    
+    #bgGis {
+        margin-left: -1px;
+    }
 }
