@@ -31,6 +31,12 @@
     --cor4: #011250;
 }
 
+@media (max-width: 1900px) {
+    .background {
+        height: 100vh;
+    }
+}
+
 /*  */
 
 @media (max-width: 565px) {
