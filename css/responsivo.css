@@ -93,9 +93,6 @@
         color: var(--corTextos);
     }
 
-    #oculto p {
-    }
-
     .txt-produtos {
         text-align: center;
         border-radius: 0px 6px;
@@ -187,4 +184,14 @@
     .modal-work img {
         margin-right: 95px;
     }
+
+    .background2 {
+        background-attachment: scroll;
+    }
+
+    .cntt {
+        position: absolute;
+    }
+
+    
 }
