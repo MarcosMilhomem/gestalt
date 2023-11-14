@@ -31,14 +31,75 @@
     --cor4: #011250;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1850px) {
     .background {
-        height: 100vh;
+        height: 935px;
     }
 
-    .background-about {
-        height: 100vh;
+    .txt-pag1 {
+        margin-left: 705px;
+        font-size: 55px;
     }
+
+    #txt1 {
+        margin-left: 205px;
+    }
+
+    .pag1 p {
+        margin-top: 560px;
+    }
+
+    .titulo-pag2 {
+        margin-bottom: 60px;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .bloco-img-1 {
+        gap: 100px;
+        height: 270px;
+        justify-content: center;
+    }
+
+    .bloco-img-2 {
+        height: 370px; 
+        gap: 100px; 
+        margin-top: 45px;
+    }
+
+    #img4 {
+        height: 370px;
+    }
+    
+    .background-about {
+        height: 835px;
+    }
+
+    .about {
+        max-width: 1060px;
+        text-indent: 120px;
+    }
+
+    .about h2 {
+        letter-spacing: 12px;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    .descricao-about {
+        font-size: 58px;
+    }
+
+    .txt-about {
+        font-size: 28px;
+        margin-top: 40px;
+        line-height: 33px;
+    }
+
+    .pag4-about {
+        height: 750px;
+    }
+
 }
 
 @media (max-width: 1100px) {
@@ -183,7 +244,7 @@
     }
 
     #bgGis {
-        margin-left: 20px;
+        margin-left: 200px;
     }
 
     .modal-work img {
