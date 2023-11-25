@@ -293,4 +293,22 @@
     #bgGis {
         margin-left: -1px;
     }
+
+    .background3 {
+        height: 310vh;
+    }
+
+    .background3 {
+        .nav-bar {
+            background-color: #546dc2;
+        }
+    }
+
+    #pag2-apostilha {
+        margin-top: 150px;
+    }
+
+    .bloco-apos {
+        flex-direction: column;
+    }
 }
