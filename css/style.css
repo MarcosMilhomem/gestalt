@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
 
 * {
     margin: 0;
@@ -477,3 +478,44 @@ ul {
     margin-left: 210px;
 }
 
+.img-txt {
+    border-radius: 500px;
+    width: 20px;
+}
+
+.background3 {
+    height: 170vh;
+    width: 100%;
+    background-image: url('../midias/backgruond3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pag1 .titulo-apostilha {
+    color: var(--corTextos);
+    font-family: var(--font-padrao);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.txt-download {
+    color: rgb(180, 180, 180);
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(24, 24, 24, 0.521);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 40px;
+    width: 300px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div .link {
+    margin: 10px auto;
+}
