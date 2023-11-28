@@ -248,6 +248,7 @@ ul {
     padding-bottom: 70px;
     text-align: center;
     font-family: var(--font-titulo);
+    text-transform: uppercase;
     font-size: 3.5em;
     color: var(--cor2);
     background-color: var(--cor1);
