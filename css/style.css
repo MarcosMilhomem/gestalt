@@ -519,3 +519,12 @@ ul {
 div .link {
     margin: 10px auto;
 }
+
+.txt-download:hover {
+    box-shadow: 16px 10px 15px rgba(0, 0, 0, 0.534);
+    transition: all 0.2s;
+}
+
+.txt-download:not(:hover) {
+    transition: 0.4s;
+}
